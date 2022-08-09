@@ -1,0 +1,37 @@
+.box {
+  align-items: center;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  position: relative;
+  width: 300px;
+}
+
+.centro {
+  margin: auto;
+  width: 18%;
+  padding: 10px;
+}
+
+
+
+
+
+
+.verde {color: green;}
+
+.rosso {color: red;}
+
+.blu {color: blue;}
+
+.center {text-align: center;}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

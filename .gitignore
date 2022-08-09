@@ -1,0 +1,6 @@
+.stfolder
+.stversions
+npm_modules
+Altri file non utili al sito
+.DS_Store
+.stignore

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html style="zoom: 150%;" lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Casinò di Lugozzi</title>
+  </head>
+  <script src="codice.js"></script>
+  <link rel="stylesheet" href="grafica.css">
+  <body background="./foto/entrata.jpg">
+    <center>
+      <h1 class="rosso">Casinò di Lugozzi</h1>
+
+
+      <div id="inizio">
+      <h3 class="verde">Inserire nome giocatore</h3>
+      <button type="button" name="conferma" onclick="conferma()">conferma</button>
+      <input type="text" placeholder="Giocatore"  id="casella">
+      </div>
+
+
+      <h3 id="nome" style="display: none;" class="verde">Giocatore: </h3>
+
+      <div style="display: none;" id="fine">
+        <button type="button" class="pasta"name="vinto" onclick="vinto()">vinto</button>
+        <button type="button" class="pasta"name="pareggio" onclick="pareggio()">pareggio</button>
+        <button type="button" class="pasta"name="perso" onclick="perso()">perso</button><br>
+        <img src="foto/tavolo.png" class="tonno" id="tavolo">
+      </div>
+      <div style="display: none;" id="invisibilo">
+        <button type="button" name="invisibile" onclick="Invisibile()">invisibile</button>
+      </div>
+    </center>
+    <div style="display: none;" id="partita" class="mela">
+      <center>
+      <button type="button" class="pasta1" name="stai" onclick="stai()">stai</button>
+      <button type="button" class="pasta" name="carta" onclick="carta()">chiedi</button>
+      <button type="button" class="pasta" name="split" onclick="split()">split</button>
+      <button type="button" class="pasta" name="raddoppia" onclick="raddoppia()">raddoppia</button>
+      <button type="button" class="pasta" name="sballato" onclick="sballato()">sballato</button><br>
+
+     
+
+      <button type="button" class="button5" name="cinque" onclick="cinque()">5</button><br>
+      <button type="button" class="button" name="dieci" onclick="dieci()">10</button><br>
+      <button type="button" class="button" name="venticinque" onclick="venticinque()">25</button><br>
+      <button type="button" class="button50" name="cinquanta" onclick="cinquanta()">50</button><br>
+
+      <div class="ventuno" id="ventuno">
+        <img class="pizza" onclick="salta()" src="foto/ventuno.png">
+      </div>
+      <button type="button" class="pizza" name="salta" onclick="salta()">salta</button>
+      <button type="button" class="pizza" name="conferma" onclick="confrma()">punta</button>
+    </center>
+    </div>
+
+      <div style="">
+      <div class="cinque" style="display: none;" id="fish5">
+      <div class="quantità">
+        <img src="./foto/verde.png" id="moneta5">
+        <div id="casella5" class="quantità"></div>
+      </div>
+      </div>
+      </div>
+    
+    
+
+    <div class="dieci" style="display: none;" id="fish10">
+      <img src="./foto/blu.png" id="moneta10">
+      <div id="casella10" class="quantità"></div>
+    </div>
+
+    <div class="venticinque" style="display: none;" id="fish25">
+      <img src="./foto/rossa.png" id="moneta25">
+      <div id="casella25" class="quantità"></div>
+    </div>
+
+    <div class="cinquanta" style="display: none;" id="fish50">
+      <img src="./foto/nera.png" id="moneta50">
+      <div id="casella50" class="quantità"></div>
+    </div>
+
+
+
+  </body>

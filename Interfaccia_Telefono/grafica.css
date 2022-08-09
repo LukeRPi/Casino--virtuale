@@ -1,0 +1,107 @@
+.verde {color: green;}
+
+.rosso {color: red;}
+
+.blu {color: blue;}
+
+.center {text-align: center;}
+
+.button5{
+  margin-right: 400px;
+  margin-bottom: 5px;
+  margin-top: 65px;
+}
+
+.button50 {
+  margin-right: 400px;
+  margin-bottom: 47px;
+  margin-top: 5px;
+}
+
+.button {
+  margin-right: 400px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.focaccia {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.pizza {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.pasta {
+  margin-right: 18px;
+  margin-left: 18px;
+}
+
+.pasta1 {
+  margin-right: 18px;
+  margin-left: 50px;
+}
+
+
+.mela {
+  background-image: url("./foto/tavolo.png");
+  background-size: 650px 180px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tonno {
+    height: 180px;
+    width: auto;
+}
+
+.quantità{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.cinque {
+  position:static;
+  left: 0px;
+  top: 0px;
+}
+
+
+.dieci{
+  position: absolute;
+  left: 421px;
+  top: 251px;
+}
+
+.venticinque{
+  position: absolute;
+  left: 533px;
+  top: 251px;
+}
+
+.cinquanta{
+  position: absolute;
+  left: 590px;
+  top: 251px;
+}
+
+.ventuno{
+  position: absolute;
+  left: 428px;
+  top: 240px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
