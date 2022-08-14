@@ -59,42 +59,53 @@
     width: auto;
 }
 
-.quantità{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
+.quantitàtxt{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
 }
 
-.cinque {
+.fish {
   position:static;
   left: 0px;
   top: 0px;
 }
 
-
-.dieci{
+.fish5{
   position: absolute;
-  left: 421px;
-  top: 251px;
+  top: 50%;
+  left: 50%;
+  transform:translate(-209%,-2%);
 }
 
-.venticinque{
+.fish10{
   position: absolute;
-  left: 533px;
-  top: 251px;
+  top: 50%;
+  left: 50%;
+  transform:translate(-129%,-2%);
 }
 
-.cinquanta{
+.fish25{
   position: absolute;
-  left: 590px;
-  top: 251px;
+  top: 50%;
+  left: 50%;
+  transform:translate(31%,-2%);
 }
+
+.fish50{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(111%,-2%);
+}
+
 
 .ventuno{
   position: absolute;
-  left: 428px;
-  top: 240px;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-13%);
 }
 
 .unselectable {
