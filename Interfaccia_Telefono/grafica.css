@@ -67,9 +67,15 @@
 }
 
 .fish {
-  position:static;
+  position:relative;
   left: 0px;
-  top: 0px;
+  top: -176px;
+}
+
+.fish21 {
+  position:relative;
+  left: 0px;
+  top: -135px;
 }
 
 .fish5{
